@@ -105,7 +105,7 @@ try:
 except Exception as ff:
     print (ff)
 
-for s in range(9000, 9256):
+for s in range(9000, 14000):
     url = 'https://www.stoloto.ru/5x36plus/archive/%s' %s
     #check HTTP
     try:
